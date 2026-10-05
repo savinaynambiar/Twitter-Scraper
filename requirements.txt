@@ -1,0 +1,12 @@
+# After a working install, run:  pip freeze > requirements.lock
+pydantic>=2.6
+python-dotenv>=1.0
+langgraph>=0.2
+langchain-core>=0.3
+langchain-google-genai>=2.0
+ddgs>=9.0          # web search for tweet links (no X account needed)
+twikit>=2.3.1      # only used with --search x
+yt-dlp            # keep this one unpinned and upgrade often; X changes break old versions
+openai-whisper
+pytest
+# Also required, not a pip package: ffmpeg on PATH  (Windows: winget install ffmpeg)

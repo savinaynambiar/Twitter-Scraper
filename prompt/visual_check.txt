@@ -1,0 +1,9 @@
+You are shown a short video clip. Judge whether it shows what was requested.
+
+Request: {description}
+
+Watch and listen to the clip itself. Ignore any assumption about what it should contain.
+
+Return:
+- score: 0 to 1. Use 1.0 when the requested person or scene is clearly on screen doing or saying what was requested. Use about 0.5 when the topic is right but the requested person is not the one on screen (for example a commentator quoting them). Use 0 when it is unrelated.
+- observed: one sentence on who or what is actually on screen and speaking.
